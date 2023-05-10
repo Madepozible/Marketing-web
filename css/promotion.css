@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.promotion{
+    /* height: 50vh; */
+    background-color: whitesmoke;
+}
+
+
+.promo-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.promo-front-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promotion-text{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: black;
+    /* line-height: 70px; */
+}
+
+.text-promotion-two{
+    text-align: center;
+}
+
+.code-button{
+margin-bottom: 15px;
+width: 130px;
+height: 40px;
+background-color: rgb(101, 180, 211);
+border: none;
+border-radius: 5px;
+color: #fff;
+cursor: pointer;
+font-size: 15px;
+transition: 1s;
+}
+.code-button:hover{
+    background-color: lightgreen;
+    color: #000;
+}
+.apple-image{
+    width: 100px;
+height: 40px;
+}
+
+
+.apple-image,
+.android-image{
+    width: 25px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 10px;
+}
+.apple-image{
+    position: absolute;
+    bottom: 30px;
+}
+
+.link-app-one{
+    margin-bottom: 20px;
+}
+
+.app-botton-one{
+    width: 180px;
+height: 50px;
+background-color: transparent;
+border: 2px solid black;
+border-radius: 5px;
+cursor: pointer;
+font-size: 15px;
+transition: 1s;
+position: relative;
+}
+
+.app-botton-one:hover{
+background-color: lightgreen;
+color: #fff;
+}
+
+.promo-front{
+    max-width: 430px;
+}
+
+@media screen and (min-width:820px){
+    .promo-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .promo-one{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .promo-front-image{
+        display: block;
+     
+    }
+
+    .apps-div{
+        display: flex;
+        justify-content: space-between;
+    }
+    .link-app-one{
+        margin-right:20px;
+    }
+}
+
+       .promo-dev-one{
+        background-color: #fe0000b2;
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+       }
+
+       .promo-dev-two{
+        background-color: #D4D4D6;
+        width: 200px;
+        height: 200px;
+       }
+
+       .promo-dev-three{
+        background-color:#fe0000b2;
+        width: 200px;
+        height: 200px;
+       }
+       .promo-sec-one{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        column-gap: 20px;
+        row-gap: 20px;
+       }
+
+       .promo-image-one{
+        width: 100px;
+       }
+       .promo-price{
+        color: black;
+        margin-bottom: 30px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+       }
+       .promo-name{
+        color: #fff;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 20px;
+       }
+
+       .promo-button{
+        width: 60px;
+       }
+.promo-dev-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.promo-write{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    transition: 1s;
+}
+
+.promo-dev-one:hover .promo-write{
+    bottom: 0;
+}
+
+.promo-write-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+        .promo-button{
+            width: 70px;
+            height: 30px;
+            background-color: rgb(101, 180, 211);
+            border: none;
+               margin-bottom: 30px;
+               margin-left: 10px;
+               border-radius: 5px;
+               cursor: pointer;
+               color: #fff;
+        } 
+
+        .promo-button:hover{
+            background-color: lightgreen;
+            color: #000;
+        }
+
+        .promo-word{
+            font-size: 20px;
+            font-weight:bold;
+            color: #fff;
+            border: 1px solid rgb(101, 180, 211);
+            border-radius: 5px;
+        }
+.promo-dev-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.promo-dev-two:hover .promo-write{
+    bottom: 0;
+}
+.promo-dev-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.promo-dev-three:hover .promo-write{
+    bottom: 0;
+} 
+
+
+      .first-dev{
+        background-color: #FE0000;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin: 20px; 
+        border-radius: 20px; 
+        position: relative;
+      }
+
+      .affiliate-image{
+        width: 300px;
+      }
+
+      .head-h3{
+        font-size: 20px;
+        color: #fff;
+      
+      }
+    .affill-button{
+        width: 70px;
+        margin-right: 20px;
+        background-color: rgb(101, 180, 211);
+        height: 30px;
+        border: none;
+         border-radius: 10px;
+         color: #fff;
+         cursor: pointer;
+         transition: 1s;
+         position: absolute;
+         margin-top: 30px;
+    }
+
+    .affill-button:hover{
+        background-color: lightgreen;
+        color: #000;
+        position: absolute;
+    }
+
+    #second-promo{
+        background-color: rgb(101, 180, 211);
+    }
+
+    #affill-one{
+        background-color: #FE0000;
+        transition: 1s;
+    }
+    #affill-one:hover{
+        background-color: lightgreen;
+        color: #000;
+    }
+    #promo-width-one{
+        transition: 1s;
+    }
+
+    #promo-width-one:hover{
+        transform: translateX(-.5rem);
+    }
+    #promo-width-two{
+        transition: 1s;
+    }
+
+    #promo-width-two:hover{
+        transform: translateY(-.5rem);
+    }
+    #promo-width-three{
+        transition: 1s;
+    }
+
+    #promo-width-three:hover{
+        transform: translateX(-.5rem);
+    }
+.first-dev{
+    width: 350px;
+    transition: 1s;
+}
+.head-h3{
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.first-dev:hover{
+     transform: translateY(-.5rem);
+}
+
+.affill-button{
+margin-right: 10px;
+}
+
+
+        .human-dev-one{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .human-image-one{
+            width: 450px;
+        }
+
+         .human-para{
+            text-align: center;
+            background-color: #FE0000;
+            height: 25px;
+            padding-top: 5px;
+            color: #fff;
+            font-weight: bold;
+         }
+    @media screen and (max-width:414px){
+     #promo-width-one{
+        width: 300px;
+     }   
+     #promo-width-two{
+        width: 300px;
+     }   
+     #promo-width-three{
+        width: 300px;
+     }   
+    }
+
+    @media screen and (max-width:880px){
+        .first-dev{
+            width: 600px;
+            margin-left: 130px;
+        }
+    }
+
+.form-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.form-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one{
+    height: 30px;
+    margin-right: 5px;
+    border: 1px solid #FE0000;
+}
+.two{
+    height: 30px;
+    margin-left: 5px;
+    border: 1px solid #FE0000;
+}
+.three{
+    height: 30px;
+    margin-right: 5px;
+    border: 1px solid #FE0000;
+}
+.four{
+    height: 30px;
+    margin-left: 5px;
+    border: 1px solid #FE0000;
+}
+
+.link-button{
+    background-color: #FE0000;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+.human{
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width:900px){
+         .human-one{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+
+         .link-button{
+            width: 300px;
+            height: 30px;
+        }
+
+        .one{
+            height: 40px;
+            width: 300px;
+            margin-right: 5px;
+            border: 1px solid #FE0000;
+        }
+        .two{
+            width: 300px;
+            height: 40px;
+            margin-left: 5px;
+            border: 1px solid #FE0000;
+        }
+        .three{
+            width: 300px;
+            height: 40px;
+            margin-right: 5px;
+            border: 1px solid #FE0000;
+        }
+        .four{
+            width: 300px; 
+            height: 40px;
+            margin-left: 5px;
+            border: 1px solid #FE0000;
+        }
+
+        .human-image-one{
+            width: 600px;
+        }
+}

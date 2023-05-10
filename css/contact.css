@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+     
+
+    
+.trac_one{
+     width: 60vw;
+     height: 30px;
+     border: none;
+     background-color: rgba(128, 0, 128, 0.313);
+     margin-bottom: 20px;
+     color: blue;
+     font-size: 15px;
+     font-weight: bold;
+}
+
+ .h2_1,
+ .h2_2,
+ .h2_3,
+ .h2_4{
+   font-size: 17px;
+   font-weight: lighter;
+ }
+
+
+
+
+ .drop_down{
+     width: 60vw;
+     height: 30px;
+     border: none;
+     background-color: rgba(128, 128, 128, 0.429);
+     margin-bottom: 25px;
+     border-radius: 3px;
+
+}
+
+.input_1{
+     width: 60vw;
+     height: 30px;
+     border: none;
+     background-color: rgba(128, 128, 128, 0.429);
+     margin-bottom: 25px;
+     border-radius: 3px;
+    
+}
+
+.input_2{
+     width: 60vw;
+     height: 30px;
+     border: none;
+     background-color: rgba(128, 128, 128, 0.429);
+     margin-bottom: 25px;
+     border-radius: 3px;
+
+}
+
+.input_3{
+     width: 60vw;
+     height: 30px;
+     border: none;
+     background-color: rgba(128, 128, 128, 0.429);
+     margin-bottom: 25px;
+     border-radius: 3px;
+
+}
+
+.input_3:hover{
+     border: 1px solid green;
+}
+
+.input_1:hover{
+     border: 1px solid green;
+}
+.input_2:hover{
+     border: 1px solid green;
+}
+
+
+  .submit_one{
+   width: 60vw;
+     height: 35px;
+     border: none;
+     background-color: green;
+     margin-bottom: 25px;
+     font-size: 15px;
+     font-weight: bold;
+     cursor: pointer;
+     color: #fff;
+     border-radius: 3px;
+}
+.submit_one:active{
+   background-color: blue;
+}
+
+@media screen and (max-width: 320px){
+     
+   .header-one .head{
+          margin: 10rem 0 auto;
+          margin-left: 65px;
+   }      
+
+} 
+@media screen and (max-width: 600px){
+     .header-one .head{
+          margin-left: 95px;
+   }     
+}
+
+@media screen and (min-width: 700px){
+  
+
+   .trac_one{
+     width: 40vw;
+     height: 40px;
+     color: blue;
+     font-size: 20px;
+}
+
+
+.drop_down{
+     width: 40vw;
+     height: 30px;
+}
+
+.input_1,
+.input_2,
+.input_3{
+     width: 40vw;
+     height: 30px;
+
+}
+
+.submit_one{
+     width: 40vw;
+
+}
+}
+.form-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:900px){
+       .heade-one{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+
+       .image-one{
+        width: 300px;
+       }
+
+       .promotion{
+        margin-bottom: 30px;
+       }
+
+       .address{
+     width: 500px;
+     height: 100px;
+     float: right;
+     }
+
+    
+}
+.address-dev{
+ display: flex;
+ align-items: center;
+ justify-content: center;    
+}
+.address-list{
+    list-style: none;
+    font-weight: bold;
+    font-size: 17px;
+    color: #fff;
+}
+
+.address{
+     background-color: #fe000023;
+     margin: 30px;
+  border-radius: 20px;
+}

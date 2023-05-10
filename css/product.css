@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.animate-one{
+   margin-bottom: 25px;
+}
+#margin-one{
+    margin-top: 25px;
+    width: 100px;
+}
+
+               #margin-two{
+                width: 55px;
+               }
